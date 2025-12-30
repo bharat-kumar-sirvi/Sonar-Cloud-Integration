@@ -1,4 +1,4 @@
-export const App =({ flag }: { flag: boolean })=> {
+export const App = ({ flag }: { flag: boolean }) => {
   if (flag == true) {
     console.log("True");
   }
@@ -7,6 +7,6 @@ export const App =({ flag }: { flag: boolean })=> {
   }
   console.log("Sonar Cloud");
   return <h1 style={{ backgroundColor: "royalblue" }}>Sonar Cloud + {flag}</h1>;
-}
+};
 
 export default App;
