@@ -1,4 +1,4 @@
-function App({ flag }: { flag: boolean }) {
+export const App =({ flag }: { flag: boolean })=> {
   if (flag == true) {
     console.log("True");
   }
