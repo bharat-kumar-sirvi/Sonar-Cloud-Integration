@@ -1,6 +1,9 @@
 function App({ flag }: { flag: boolean }) {
   if (flag == true) {
-    console.log("Sonar Cloud");
+    console.log("True");
+  }
+  if (flag == false) {
+    console.log("False");
   }
   console.log("Sonar Cloud");
   console.log("Sonar Cloud");
@@ -9,7 +12,7 @@ function App({ flag }: { flag: boolean }) {
   var a = 10;
   return (
     <>
-      <h1>Sonar Cloud + {flag}</h1>
+      <h1 style={{ backgroundColor: "royalblue" }}>Sonar Cloud + {flag}</h1>
     </>
   );
 }
