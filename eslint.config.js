@@ -22,9 +22,8 @@ export default defineConfig([
     rules: {
       eqeqeq: "error",
       "no-console": "warn",
-    "no-unused-vars": "warn",
-			"no-undef": "warn",
-
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
     },
   },
 ]);
